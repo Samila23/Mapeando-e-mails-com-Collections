@@ -7,11 +7,11 @@
 
 <div align="center">
 Desenvolvido por: 
-https://github.com/CamilaLima21
-https://github.com/Leticia-Viana
-https://github.com/michelledantas
-https://github.com/robertacaroline
-https://github.com/Samila23
+<p>https://github.com/CamilaLima21</p>
+<p>https://github.com/Leticia-Viana</p>
+<p>https://github.com/michelledantas</p>
+<p>https://github.com/robertacaroline</p>
+<p>https://github.com/Samila23</p>
 
 
 <p align="justify">Sistema que possibilita realizar o gerenciamento de uma Caixa de Emails. Nele contém funcionalidades que permitem visualizara conta de e-mail, o endereço de quem o enviou, a data de envio, a data de recebimento, o assunto e o texto do e-mail (não se consideram anexos, etc.).
