@@ -36,51 +36,6 @@ Crie uma classe MailMap que associe a cada endereço de envio todos os mails rec
 </p>
 </pre>
 <p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
-<h4>3º No endpoint Produtos, POST /vendas, utilizar a Massa abaixo para realizar uma venda.</h4>
-<pre>
-<p>
-{
-  "idVenda": 1,
-  "clientes": {
-    "idCliente": 1,
-    "nome": "Samila Milena",
-    "rg": "000xx",
-    "cpf": "000.000.000-00",
-    "idade": 18
-  },
-  "produtos": {
-    "idProduto": 1,
-    "nome": "Livro",
-    "preco": 9.90,
-    "quantidadeProduto": 10,
-    "descricaoProduto": "Codigo Limpo"
-  }
-}
-</p>
-</pre>
-<p>Caso utilize o mesmo idVenda de uma venda já existente no momento criação, vc irá atualizar os dados da venda</p>
-<h4>4º Após Criar a venda, você poderá consultar a venda realizada em GET /venda , poderá consultar o produto cadastrado em GET /produto , consultar o cliente em GET /cliente , além disso será possivel verificar a movimentação de saíde e entrada do estoque em GET /estoque.</h4>
 
-<div align="center">
-
-## Tecnologias usadas:
-
-
-<table>
-  <tr>
-    <td>Java</td>
-    <td>SpringBoot</td>
-  </tr>
-  <tr>
-    <td>11</td>
-    <td>2.6.7</td>
-  </tr>
-</table>
- 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Samila23"><br/><sub><b>Sâmila Milena</b></sub></a><br /></td>
-  </tr>
-</table>
 
 </div>
