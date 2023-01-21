@@ -18,24 +18,26 @@ Desenvolvido por:
 
 Crie uma classe MailMap que associe a cada endereço de envio todos os mails recebidos (classe EMail) e implemente as seguintes operações:</p>
 </div>
+a) Determinar o total de endereços a partir dos quais se recebeu mail;
 
-<h2>Como subir o ambiente:</h2>
-<h4>1º Após subir a aplicação, abrir no navegador o link: http://localhost:8080/swagger-ui/index.html.</h4>
-<br>
-<h2>Para testar funcionalidades da API:</h2>
-<h4>2º No endpoint Produtos, POST /produtos, utilizar a massa abaixo (podendo alterar conforme a necessidade).</h4>
-<pre>
-<p>
-{
-  "idProduto": 1,
-  "nome": "Brinquedo",
-  "preco": 9.9,
-  "quantidadeProduto": 10,
-  "descricaoProduto": "carrinho"
-}
-</p>
-</pre>
-<p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
+b) Guardar um novo mail recebido;
+
+c) Determinar quantos mails têm por origem um dado endereço;
+
+d) Criar uma lista com todos os endereços que enviaram mails contendo no seu assunto uma lista de palavras dada como parâmetro;
+
+e) O mesmo que a questão anterior, mas criando um conjunto contendo os mails;
+
+f) Eliminar todos os e-mails recebidos antes de uma data que é dada como parâmetro;
+
+g) Criar uma lista dos endereços que hoje enviaram mails;
+
+h) Dada uma lista de palavras, eliminar todos os mails de um dado endereço que no seu assunto contenham uma qualquer destas (anti-spam);
+
+i) Eliminar todos os mails de um dado endereço anteriores a uma data dada;
+
+j) Criar uma listagem com todos os endereços de e-mail oriundos um país dado como parâmetro;
+
 
 
 </div>
